@@ -9,7 +9,9 @@
     "mail-sender",
     "backend-mail-sender",
     "nodejs-mail-sender",
-    "frontend-mail-sender"
+    "frontend-mail-sender",
+    "frontend",
+    "reactjs"
   ],
   "description": "A simple mail sender package which uses nodemailer to send mails",
   "main": "index.js",
