@@ -19,10 +19,4 @@ const SendMail=async (password,mail,cmail,subject,content,service="google")=>{
         return 0;
     }
 }
-// const trys=async()=>{
-// 
-    // await SendMail("mlguwczscwnikpnt","doraemonarea123987@gmail.com","prashant201103@gmail.com","Hii","this is testing message")
-// }
-// console.log("success");
-// trys();
 module.exports=SendMail
