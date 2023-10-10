@@ -12,7 +12,7 @@ npm i mail-sender-package
 4. **clientmail**: Mail of the Receiver
 5. **mailsubject**: Subject of the mail body
 6. **contentinhtml**: Mail Body(in HTML)
-7. **service**: Type of Service used, 'google' by default
+7. **service**: Type of Service used, 'gmail' by default
 <br/>
 ---
 
