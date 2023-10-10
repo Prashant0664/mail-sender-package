@@ -10,7 +10,7 @@ const Sender = require("./mailsender");
  * @param {string} service Type of Service used(default is google).
  * @return {boolean} return 1 if successful otherwise 0; 
  */
-const SendMail=async (password,mail,cmail,subject,content,service="google")=>{
+const SendMail=async (password,mail,cmail,subject,content,service="gmail")=>{
     try {
         Sender(password,mail,cmail,subject,content,service);
         return 1;
