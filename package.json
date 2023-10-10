@@ -1,0 +1,32 @@
+{
+  "name": "mail-sender",
+  "version": "1.0.0",
+  "keywords": [
+    "mail",
+    "mail sender",
+    "nodemailer mail sender",
+    "npm",
+    "mail-sender",
+    "backend-mail-sender",
+    "nodejs-mail-sender",
+    "frontend-mail-sender"
+  ],
+  "description": "A simple mail sender package which uses nodemailer to send mails",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prashant0664/mail-sender-package.git"
+  },
+  "author": "Prashant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prashant0664/mail-sender-package/issues"
+  },
+  "homepage": "https://github.com/Prashant0664/mail-sender-package#readme",
+  "dependencies": {
+    "nodemailer": "^6.9.6"
+  }
+}
