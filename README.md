@@ -2,7 +2,7 @@
 
 To install:<br/>
 ```
-npm i 
+npm i mail-sender-package
 ```
 
 ### Some Important Points:<br/>
@@ -22,7 +22,7 @@ npm i
 **In Frontend**
 
 ```
-import MailSender from "mail-sender"
+import MailSender from "mail-sender-package"
 import React from "react";
 
 const App = () => {
