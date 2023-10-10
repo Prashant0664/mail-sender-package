@@ -19,36 +19,13 @@ npm i mail-sender-package
 
 **How to use:** <br/>
 
-**In Frontend**
-
-```
-import MailSender from "mail-sender-package"
-import React from "react";
-
-const App = () => {
-
-  // main sender function starts here
-  const mailsenderfunction = async () => {
-    try {
-      await MailSender(passcode, yourmail, clientmail, mailsubject, contentinhtml, service);
-    }
-    catch (error) { console.log(error) };
-  }
-  // main sender function ends here
-
-  return (
-    <>
-    </>
-  )
-}
-```
 **In backend**
 
 ```
-const onst sendmail = async (req, res) => {
+const MailSender =require("mail-sender-package")
     try {
         const { passcode, yourmail, clientmail, mailsubject, contentinhtml, service } = req.body;
-        await MailSender(passcode, yourmail, clientmail, mailsubject, contentinhtml, service); // main mail sender function
+        MailSender(passcode, yourmail, clientmail, mailsubject, contentinhtml, service); // main mail sender function
     }
     catch (error) {
         return res.status(/*[ERROR_CODE]*/).json({ msg: "MESSAGE" });
