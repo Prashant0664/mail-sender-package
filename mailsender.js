@@ -12,7 +12,7 @@ const Sender = (password, mail, cemail, subject, content,service="gmail") => {
     from: mail,
     to: cemail,
     subject: subject,
-    html: `${content}`
+    html: content
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
